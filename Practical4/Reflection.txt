@@ -1,3 +1,10 @@
 Compare to the former practicals, this practical is more difficult for me. 
 I have spent a great amount of time doing it. Fortunately, everything goes well finally.
-The most challeging thing I have met is moving files from local address to the GitHub.I tried many times and tried to get help from the "helper" command, but it didn't work.I also searched the problem on the Internet
+The most challeging thing I have met is moving files from local address to the GitHub.
+I tried many times and tried to get help from the "helper" command, but it didn't work.
+I also searched the problem on the Internet,but I didn't find the solutions.
+Fotunately, it was a problem many of us met, and robert offered a solution, and it worked out.
+I have one question:
+When we use the command "git merge", a new page will appear, and the instruxtion says we can use "x" to quit. 
+But for me, it didn't work.
+I wonder do we have other solutions? 
