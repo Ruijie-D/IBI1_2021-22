@@ -9,8 +9,8 @@ print(d/c>e/b)#the rate of 2021 > 2022
 #the first answer got false,thus d<e
 #the second answer got true, thus the rate of 2021 and 2020
 
-X=input("X=")
-Y=input("Y=")
+X=True
+Y=False
 W=X+Y
 print(W)
 
