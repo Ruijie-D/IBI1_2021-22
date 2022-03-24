@@ -22,3 +22,4 @@ plt.ylabel('score')
 plt.title("distribution of Rob's mark")
 plt.grid(linestyle="--",alpha=0.7)
 plt.show()
+#the boxplot still needs to improve, like changing its colors and styles.
