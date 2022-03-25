@@ -27,6 +27,7 @@ plt.scatter(x,y,marker='D',color='c')
 plt.title("the effect of paternal age on offspring health")
 plt.xlabel('paternal age')
 plt.ylabel('relative risk of congenitial heart disease')
+#the above codes are cited from URL: https://zhuanlan.zhihu.com/p/70835617 22/03/22
 plt.show()#show the scatter plot of paternal_age and chd
 
 
