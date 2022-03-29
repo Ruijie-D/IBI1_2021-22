@@ -1,0 +1,8 @@
+Question: How have new cases and total cases developed over time in Spain?
+line number of the related codes start:44
+discussion of the result: 
+Everything goes well except some parts of the date below the x axis can't be seen directly.
+As the figure shows, the #new cases becomes larger quickily at the beginning of March and reduces at the end.
+While the total cases goes higher dramatically in the March, because it is the cumulative value of the new case.
+
+
