@@ -1,7 +1,4 @@
 import re
 seq='ATGCAATCGACTACGATCAATCGAGGGCC'
-frg=re.findall(r'GAATTC',seq)
-numf=0
-if len(frg)>0:
-  numf=len(frg)+1
+numf=seq.count("GAATTC")+1
 print(numf)

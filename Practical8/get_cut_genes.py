@@ -16,13 +16,13 @@ with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa','r')as xfile:
                   leng=len(orgg)
                   
                   #print out matching information:
-                  #fout=open('cut_genes.fa','w')
+                  
                   fout.write('>')
                   fout.write(name)
                   fout.write('      ')
                   fout.write(str(leng)+'\n')
                   fout.write(orgg+'\n')
-                  #fout.close()
+                  
               inf=g
               #DEBUG:print(orgg) 
               orgg=''
