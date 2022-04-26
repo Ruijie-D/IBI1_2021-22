@@ -11,6 +11,21 @@ print(d/c>e/b)#the rate of 2021 > 2022
 
 X=True
 Y=False
-W=X+Y
+W=X and Y
+print(W)
+
+X=False
+Y=True
+W=X and Y
+print(W)
+
+X='True'
+Y='True'
+W=X and Y
+print(W)
+
+X=False
+Y=False
+W=X and Y
 print(W)
 
