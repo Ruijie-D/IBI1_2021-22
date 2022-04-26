@@ -2,15 +2,15 @@ findings:
 
 human-mouse:
 percentage of similarity:0.97
-BLOSUM score:1550
+BLOSUM score:1490
 
 human-random:
 percentage of similarity:0.03
-BLOSUM score:-495
+BLOSUM score:-351
 
 mouse-random:
 percentage of similarity:0.03
-BLOSUM score:-501
+BLOSUM score:-348
 
 interpretations:
 I found that human and mouse's sequences have much higher similarity compared to the random sequence.
