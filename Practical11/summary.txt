@@ -1,0 +1,17 @@
+findings:
+
+human-mouse:
+percentage of similarity:0.97
+BLOSUM score:1550
+
+human-random:
+percentage of similarity:0.03
+BLOSUM score:-495
+
+mouse-random:
+percentage of similarity:0.03
+BLOSUM score:-501
+
+interpretations:
+I found that human and mouse's sequences have much higher similarity compared to the random sequence.
+So I think human and mouse has close evolutionary relationship due to the high similarity.
