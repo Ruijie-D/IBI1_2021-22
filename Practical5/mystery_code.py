@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:show one random number in the range from 1 to 100
+# Answer: It selects ten random numbers between 1 and 100 and then print the last one. 
 
 # Import libraries
 # randint allows drawing a random number,
@@ -11,8 +11,8 @@ from random import randint
 from math import ceil
 
 progress=0
-while progress<10:
-	progress+=1#make n enter into the loop in every new operation
+while progress<10:#so that the loop will be executed 10 times
+	progress+=1#so that progress will keep increasing as while loop going
 	n = randint(1,100)#gain a random number
 
-print(n)
+print(n)#print out the number from the 10th loop
