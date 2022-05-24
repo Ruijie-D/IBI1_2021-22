@@ -1,16 +1,17 @@
 import os
 import pandas as pd
-import matplotlib.pylot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
 #import the full_data.csv
 covid_data =pd.read_csv("full_data.csv")
 
 #show the first and third columns from rows 10-20
-covid_data.iloc[9:20,0:3:2]
+print(covid_data.iloc[9:20,0:3:2])
 
 #show "total_cases" for all rows corresponding to Afghanistan
-covid_data.loc[covid_data["location"]=="Afghanistan","total_cases"]#referred to URL:https://blog.csdn.net/weixin_35364187/article/details/113968240
+a=covid_data.loc[covid_data["location"]=="Afghanistan","total_cases"]#referred to URL:https://blog.csdn.net/weixin_35364187/article/details/113968240
+print(a)
 
 #import the china_new_data.csv
 china_data=pd.read_csv("china_new_data.csv")
@@ -22,8 +23,8 @@ mean_new_deaths=np.mean(china_data.loc[0:,"new_deaths"])
 print("mean_new_deaths:"+str(mean_new_deaths))
 
 #create a boxplot of new cases and new deaths in China
-plt.boxplot(china_data.loc[0:,["new_cases","new_deaths"]],sym="+",whis=0.5,labels=labels)
 labels=['new cases','new deaths']
+plt.boxplot(china_data.loc[0:,["new_cases","new_deaths"]],sym="+",whis=0.5,labels=labels)
 plt.title("new cases and new deaths in China in 2020")
 plt.ylabel('number')
 plt.xlabel('class')
@@ -33,11 +34,15 @@ plt.show()
 #first create two lists for convenience
 china_dates=china_data.loc[0:,"date"]
 china_new_cases=china_data.loc[0:,"new_cases"]
-plt.plot(china_dates,china_new_cases,'g*')
+china_new_deaths=china_data.loc[0:,"new_deaths"]
+plt.plot(china_dates,china_new_cases,'b+',china_dates,china_new_deaths,'r+')
 plt.xticks(china_dates.iloc[0:len(china_dates):4],rotation=-90)#cited from the practical7 guidance
 plt.ylabel('number')
 plt.xlabel('date')
 plt.title("new cases and new deaths in China over time")
+plt.plot(2,3,label="china_new_cases")
+plt.plot(2,3* 2,label="china_new_deaths")
+plt.legend(loc='best')
 plt.show()
 
 #answer the question
