@@ -13,5 +13,5 @@ def afford(x,y):
     return op
 a=input("Total money: ")
 b=input("The price of one chocolate bar: ")
-afford(a,b)
+afford(a,b)#The function is called here. If I input 10 and 2,"You can by 5 bar(s) of chocolate.Change: 0" will be output. 
     
